@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.parrent{
+    background-color: antiquewhite;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    height: 500px;
+    align-items: center;
+    flex-direction: row;
+    width: 700px;
+    flex-wrap: wrap;
+    
+}
+.child{
+    background-color: aqua;
+    border: 1px solid red;
+    padding: 10px;
+    font-size: 25px;
+}
